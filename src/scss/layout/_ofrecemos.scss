@@ -5,31 +5,31 @@ body{
 
 .ofrecemos{
    
-background-color: darken($gris, 30);
 background-size: cover;
 padding: 1rem;
+padding-bottom: 5rem;
 gap: 1rem;
     h2{
         font-weight:  400;
         font-family: $fuente_principal;
         color: $negro;
-        font-size: 5rem;
+        font-size: 3.5rem;
         margin-bottom: 0;
 
     }
 
     h3{
-        color: $amarillo;
+        color: $grisOscuro;
         font-family: $fuente_secundaria;
         font-weight: 600;
-        font-size: 3rem;
+        font-size: 2.2rem;
 
     }
 
     p{
         font-family: $fuente_secundaria;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
         justify-content: center;
         padding-bottom: 2rem;
@@ -50,11 +50,18 @@ gap: 1rem;
     .ofrec{
 @include tablet{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    align-items: center;
 }
    display: block;
 
     }   
+
+    img{
+        width: 64px;
+        align-items: center;
+        margin: auto;
+    }
 }
 

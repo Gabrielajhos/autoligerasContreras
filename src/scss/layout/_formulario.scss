@@ -1,5 +1,5 @@
 .main{
-    background-color: $grisOscuro;
+   background-image: url(../../../img/fondo2.png);
     margin-top: 0;
     padding: 2rem; 
     h2{
@@ -17,20 +17,20 @@
     }
 }
 .formulario{
-    background-color: darken($gris, 20);
+    background-color: rgba(128, 128, 128, 0.572);
     margin-bottom: 4rem;
 
    legend{
     font-family: $fuente_principal;
     font-size: 2rem;
-    color: $negro;
+    color: white;
    }
 
     label{
         
  
         font-family: $fuente_secundaria;
-        color: $grisOscuro;
+        color:white;
         font-weight: 700;
         font-size: 2rem;
         margin-right: 2rem;
@@ -66,4 +66,20 @@
 .enviar{
     cursor: pointer;
     
+}
+
+.titulado{
+    h2{
+        font-family: $fuente_principal;
+        font-weight: 400;
+        font-size: 4rem;
+        color: $rojo;
+       
+    }
+    h3{
+        font-family: $fuente_secundaria;
+        font-weight: 500;
+        color: black;
+        font-size: 2.8rem ;
+    }
 }

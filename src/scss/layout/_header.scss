@@ -1,7 +1,11 @@
 .header{
-    
-     background-color: darken($grisOscuro, 10);
-     max-height: 50rem;
+    margin-top: 0%;
+    background-color: black;
+    background-image: url(../../../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
   
 
      .logo{
@@ -19,14 +23,27 @@
         @include tablet{
             font-size: 4.5rem;  
         }
+        margin-top: 0;
         font-family: $fuente_principal;
         font-size: 3rem;
         color: $blanco;
+        text-align: start;
+        margin-left: 2rem;
+    
+     }
+
+     h3{
+        font-family: $fuente_principal;
+        font-size: 2.7rem;
+        color: $blanco;
+        text-align: start;
+        margin-left: 2rem;  
      }
 
 }
 
 .header2{
+    background-color: rgb(5, 5, 5);
   display: block;
 
     @include tablet{
@@ -74,6 +91,7 @@
     font-family: $fuente_secundaria;
     font-weight: 500;
     font-size: 1.5rem;
+    padding: 2rem;
   
     
 
@@ -99,7 +117,7 @@
 }
 
 .menu-fixed{
-position: fixed;
+position: sticky;
 z-index: 1000;
 top: 0;
 width: 100%;

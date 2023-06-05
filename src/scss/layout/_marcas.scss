@@ -1,6 +1,6 @@
 .marcas{
 margin-left: auto;
-    background-color: darken($gris, 30);
+    background-color: $black;
     background-size: cover;
 }
 
@@ -38,8 +38,8 @@ img{
         grid-template-columns: repeat(3, 1fr);
     }
    
-    background-color: $grisOscuro;
-    color: #e9e9e9;
+
+    color: black;
     font-family: $fuente_secundaria;
     text-align: center;
     padding: 1rem;
@@ -47,5 +47,37 @@ img{
         text-decoration: none;
         color: #e9e9e9;
         font-family: $fuente_secundaria;
+    }
+}
+
+.redes{
+    color: black;
+}
+.section-galeria{
+    padding: 2rem;
+    p{
+        font-family: $fuente_secundaria;
+        text-align: center;
+
+    }
+}
+
+.galeria{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+
+    img{
+        height: 17rem;
+    }
+}
+
+.video{
+    width: 100%;
+
+    video{
+  width: 100%;
     }
 }
